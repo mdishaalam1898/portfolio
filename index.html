@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Isha Alam - portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c1c07201ed.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 style="color: #ffdd40">Portfolio</h1>
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i
+              class="fas fa-times"
+              onclick="closemenu()"
+              aria-hidden="true"
+            ></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()" aria-hidden="true"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi I'm <span>Md Isha Alam </span></h1>
+          <p style="color: #ff004f">A passionate web developer form India</p>
+        </div>
+      </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about-image.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p id="about-me">
+              Hello there! 👋 I'm <b>Md Isha Alam</b>, a passionate and creative
+              individual exploring the exciting world of web development. As a
+              recent graduate with a degree in B.Tech, I am eager to bring my
+              skills and enthusiasm for coding to the forefront. My journey into
+              web development began with a curiosity to understand how things
+              work on the internet. From learning the basics of HTML, CSS, and
+              JavaScript to diving into the world of modern frameworks like
+              React, I have enjoyed every step of the learning process.I am not
+              just a developer; I am a problem solver and a perpetual learner.My
+              ability to adapt quickly and stay updated with the latest industry
+              trends empowers me to deliver solutions that not only meet but
+              exceed expectations.I have had the pleasure of working on various
+              projects during my course journey, including BuyBusy, Seat Bokking
+              App, E-Learning Appp. These experiences have honed my skills and
+              provided me with a solid foundation to take on real-world
+              challenges.Looking Ahead I am excited about the prospect of
+              contributing to innovative and impactful projects. Whether it's
+              building responsive and user-friendly interfaces or solving
+              complex problems with code, I am ready to embark on a fulfilling
+              career in web development. Let's connect and build something
+              amazing together!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('education')">
+                Education Histroy
+              </p>
+              <p class="tab-links" onclick="openTab('course')">Courses</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span> Greater Noida Institute of Technology(AKTU)</span>
+                  <br />
+                  2019 - 2023
+                </li>
+                <li>
+                  <span>M.S.T.D College Katihar(BIHAR)</span>
+                  <br />
+                  2016 - 2017
+                </li>
+                <li>
+                  <span>High School Molnapur (BIHAR) </span> <br />
+                  2014 - 2015
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="course">
+              <ul>
+                <li>
+                  <span> Advance Front End with React </span><br />
+                  HTML, CSS, JS, ReactJS, Redux
+                </li>
+                <li><span>Programming </span><br />Java & DSA</li>
+
+                <li>
+                  <span>Database Management System </span><br />
+                  MySQL
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h1 class="section-heading mb75px">
+        <span>
+          <i class="fas fa-chalkboard-teacher"></i>
+        </span>
+        <span> SKILLS </span>
+      </h1>
+
+      <div class="skills-display">
+        <div>
+          <h1 style="color: #ffdd40">Languages</h1>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Java </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> JavaScript </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> SQL </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 style="color: #ffdd40">Front-End development</h1>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> JavaScript </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> ReactjS </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 style="color: #ffdd40">Frameworks/Libraries</h1>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Bootstrap </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> jQuery </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> ReactjS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Redux </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Redux Toolkit </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 style="color: #ffdd40">Fundamentals</h1>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> DSA </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> OOPS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> DBMS </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 style="color: #ffdd40">Versoin Control</h1>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Git </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-five-percent mb-blue">
+              <div class="skill-name">
+                <span> Github </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/stock1.png" />
+            <img src="images/stock2.png" />
+            <img src="images/stock2.png" />
+            <div class="layer">
+              <div>
+                <h3 style="color: #ffdd40">Stock Mrket Analysis</h3>
+              </div>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+
+                Built a web app to show all available stocks in portfolio and
+                also their data over different ranges of time. The App have
+                three major sections <b>Chart section</b>,
+                <b>List section</b> and <b>Detail section</b>>
+                <b>Chart section</b>.The chart section display a chart based on
+                the data fetched by the API. And contains buttons to change the
+                range on which the chart is built.After clicking the buttons
+                rendered chart according to the value of the button
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                HTML, CSS & JavaScript, DOM
+              </p>
+
+              <a
+                style="text-align: center"
+                target="_blank"
+                href="https://deluxe-souffle-ffc4fc.netlify.app/"
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/buybusy0.png" />
+            <img src="images/buybusy1.png" />
+            <img src="images/buybusy2.png" />
+            <div class="layer">
+              <h3 style="color: #ffdd40">Buybusy Application</h3>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+
+                This is an online shopping / eCommerce website made using
+                Reactjs, firebase database for storing data on cloud and
+                ContextAPI for store state and creating functions. On this site
+                any user can signUp and signIn in his/her account. A user can
+                add or remove product from cart , he can increase or decrease
+                product quantity and can place order. User data will be saved in
+                firebase database, So the user can view his purchase history
+                anytime.
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                ReactJs, Firebase Database, ContextAPI, react-router-dom,
+                react-toastify, react-spinner, CSS.
+              </p>
+              <a
+                style="text-align: center"
+                target="_blank"
+                href="https://effervescent-gelato-06865b.netlify.app/"
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/photofolio3.png" />
+            <img src="images/photofolio2.png" />
+            <img src="images/photofolio1.png" />
+
+            <div class="layer">
+              <h3 style="color: #ffdd40">PhotoFolio Application</h3>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+
+                Developed an user-friendly online photo album (PhotoFolio) that
+                allow users to upload, organise and share their digital photos.
+                Created an <b>AlbumList</b>,<b>ImageList</b>,<b>AlbumForm</b>
+                and <b> ImageForm </b>to display a list of albums, all the
+                images inside of an album, add a new album to the database and
+                add or update images in the database respectively and many more
+                features
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                ReactJs, reat-router-dom, contextAPI, Firebase
+              </p>
+
+              <a
+                style="text-align: center"
+                target="_blank"
+                href="https://mellow-seahorse-fc9268.netlify.app/"
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/e-learning3.png" />
+            <img src="images/e-learning2.png" />
+            <img src="images/e-learning1.png" />
+
+            <div class="layer">
+              <h3 style="color: #ffdd40">E-Learning App</h3>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+
+                Built Completely responsive an e-learning app,contains different
+                types of courses including topics with videos as well.All the
+                courses are locally stored in the json format from which used in
+                the different components as per the requirements.
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                Reactjs, react-router-dom, react-hooks
+              </p>
+
+              <a
+                style="text-align: center"
+                target="_blank"
+                href="https://e-learning-app-ac586c.netlify.app/"
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/seat2.png" />
+            <img src="images/seat1.png" />
+            <img src="images/seatr3.png" />
+
+            <div class="layer">
+              <h3 style="color: #ffdd40">Seat Booking Application</h3>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+                Built this app using html, css, javascript and dom.In this
+                application there are different types of movies with their
+                respective price. A user can book their seat and calculate the
+                total seats and prices after click on continue button an alert
+                message will show that Yayy! Your Seats has been booked.
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                HTML, CSS, JavaScript, DOM
+              </p>
+
+              <a
+                style="text-align: center"
+                target="_blank"
+                href="https://seat-booking-app-47e7e2.netlify.app/"
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/todo3.png" />
+            <img src="images/todo1.png" />
+            <img src="images/todo2.png" />
+
+            <div class="layer">
+              <h3 style="color: #ffdd40">Todo Application</h3>
+
+              <p>
+                <b style="color: #ffdd40"> Description:</b>
+                Built this application using reactjs, redux and many more
+                libraries.In this application a user can create own todo and
+                notes with current data and time.
+              </p>
+
+              <p>
+                <b style="color: #ffdd40">Technologies used:</b>
+
+                RecatjS, Redux, Bootstrap, CSS
+              </p>
+
+              <a style="text-align: center" target="_blank" href=""
+                ><i class="fas fa-external-link-alt" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-envelope"></i>
+              &nbsp;mdishaalam5602gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> &nbsp;+91 93311426102</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/mdishaalam8340/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/mdishaalam1898"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.hackerrank.com/profile/mdishaalam560"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+            </div>
+            <a href="images/my_reusme.pdf" download="" class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright 2024 © Md Isha Alam. All rights reserved
+          <i class="fas fa-heart" aria-hidden="true"></i>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
